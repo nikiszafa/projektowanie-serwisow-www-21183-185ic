@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Nikodem Wrosz Lab3</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nikodem Wrosz Lab3</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row" style="text-align: center; padding-top: 3%; padding-bottom: 3%; border-bottom: 2px solid black;">
+      <div class="col-sm">
+        <h3>Zdarzenie wheel</h3>
+        <div id="wheelDiv" style="border: 1px solid black;">
+          Najedź na ten tekst i użyj scrool na myszce !!!!
+        </div>
+
+      </div>
+      <div class="col-sm">
+        <h3>Zdarzenie mouseover i mouseout</h3>
+        <p>Najedź na grafikę:</p>
+        <img id="amwLogo" src="amw.png" alt="amw_logo" class="img-thumbnail">
+
+      </div>
+      <div class="col-sm">
+        <h3>Zdarzenie keyup</h3>
+        <p>Naciśnij klawisz 'p' lub 'q' lub 'a' żeby zmienić tło tekstu:</p>
+        <p id="randomText">"Random text"</p>
+      </div>
+    </div>
+
+    <div class="row" style="text-align: center; padding-top: 3%; padding-bottom: 3%; border-bottom: 2px solid black;">
+      <div class="col-sm">
+        <h3>Zdarzenie dblclick</h3>
+        <p>Naciśnij dwa razy LPP na poniższy obrazek (double click)</p>
+        <img id="catImg" id="cat" src="cat.jpg" alt="catImg" class="img-thumbnail">
+
+      </div>
+      <div class="col-sm">
+        <h3> removeEventListener()</h3>
+        <p>Jeżeli nacisniesz poniższy przycisk 5 razy eventListener click poniższego przycisku zostanie usunięty</p>
+        <button id="btn2" type="button" class="btn btn-danger">Naciśnij mnie</button>
+        <h5 id="number">Nacisnąłeś przycisk 0 razy</h5>
+      </div>
+      <div class="col-sm">
+
+        <h3>Zdarzenie click</h3>
+        <p>Naciśnij przycisk:</p>
+        <button id="btn1" type="button" class="btn btn-primary btn-lg">Nacisnij mnie</button>
+
+      </div>
+    </div>
+
+    <div class="row" style="text-align: center; padding-top: 3%; padding-bottom: 3%;border-bottom: 2px solid black;">
+      <div class="col-sm">
+        <h3>Praca z obiektem 'window' i zdarzenie resize</h3>
+        <p><b>Zmien rozmiar okna twojej przeglądarki</b></p>
+        <p id="resTxt2"></p>
+        <p id="resTxt">Zmieniłeś rozmiar okna: </p>
+        <p>Aby te funkcje działały poprawnie musimy użyć obiektu window zamiast document</p>
+
+      </div>
+
+
+      <div class="col-sm">
+        <h3>Zdarzenie copy</h3>
+        <p>Spróbuj skopiować tekst w poniższym elemencie input</p>
+        <input id="input1" type="text" value="Skopiuj ten tekst">
+        <p id="underInput" style="font-size: 25px; color: red;"></p>
+      </div>
+
+      <div class="col-sm">
+        <h3>Zdarzenie select</h3>
+        <p>Spróbuj skopiować tekst w poniższym elemencie input</p>
+        <input id="selectText" type="text" value="Zaznacz Mnie Zaznacz Mnie Zaznacz Mnie ">
+      
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="events.js"></script>
+
+
+</body>
+
+</html>
