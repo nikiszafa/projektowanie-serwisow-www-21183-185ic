@@ -1,0 +1,55 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "earnings": 5000,
+      "firstName": "John",
+      "lastName": "Doe",
+      "address": {
+        "street": "Kulas Light",
+        "suite": "Apt. 556",
+        "city": "Gwenborough",
+        "zipcode": "92998-3874",
+        "geo": {
+          "lat": "-37.3159",
+          "lng": "81.1496",
+          "premiaZaDojazd": 500
+        }
+      }
+    },
+    {
+      "id": 2,
+      "earnings": 3000,
+      "firstName": "Anna",
+      "lastName": "Smith",
+      "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+          "lat": "-43.9509",
+          "lng": "-34.4618",
+          "premiaZaDojazd": 100
+        }
+      }
+    },
+    {
+      "id": 3,
+      "earnings": 2000,
+      "firstName": "Peter",
+      "lastName": "Jones",
+      "address": {
+        "street": "Hoeger Mall",
+        "suite": "Apt. 692",
+        "city": "South Elvis",
+        "zipcode": "53919-4257",
+        "geo": {
+          "lat": "29.4572",
+          "lng": "-164.2990",
+          "premiaZaDojazd": 0
+        }
+      }
+    }
+  ]
+}
