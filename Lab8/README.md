@@ -1,22 +1,14 @@
 # LAB8 React - aplikacja nr 2 + analiza kodu źródłowego + git difftool
 
 ### - Przeanalizowany przykład: https://github.com/basir/tic-tac-toe
+### - Zmodyfikowano grę tworząc własną wariację z większą mapą i innym schematem łączenia
+
+![strona głóna](/Lab8/skr/1.PNG)
+
+#### Modyfikacje, za pomocą difftool
+![strona głóna](/Lab8/skr/2.PNG)
+![strona głóna](/Lab8/skr/3.PNG)
+![strona głóna](/Lab8/skr/4.PNG)
+![strona głóna](/Lab8/skr/5.PNG)
 
 
-#### Zainstalałowałem Material-UI
-![strona głóna](/Lab7/skr/1.PNG)
-
-#### Czcionka Roboto która jest przeznaczona dla material UI nie pobiera sie razem z Material UI trzeba ja pobrac manualnie
-![strona głóna](/Lab7/skr/2.PNG)
-
-#### Tak samo jest z ikonkami
-![strona głóna](/Lab7/skr/3.PNG)
-![strona głóna](/Lab7/skr/4.PNG)
-
-### Stworzyłem komponent Cwiczenia
-#### Umożliwia tworzenie listy ćwiczeń i usuwanie z niej elementów
-![strona głóna](/Lab7/skr/6.PNG)
-![strona głóna](/Lab7/skr/7.PNG)
-
-### Instalujemy React-Router
-![strona głóna](/Lab7/skr/8.PNG)
